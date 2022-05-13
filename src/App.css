@@ -1,0 +1,19 @@
+.App{
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+  .Nav{
+    margin: 0rem 2rem 0rem 5rem;
+    width: 100%;
+  }
+
+  @media (max-width:991px){
+  .Nav{
+    margin: 0rem 2rem 0rem 0rem;
+  }
+}
+
+
+
+

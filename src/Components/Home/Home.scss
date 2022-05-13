@@ -1,0 +1,46 @@
+@import '../Style.scss';
+
+.Home-content{
+    margin: 5rem 0rem 0rem 7rem;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 10fr;
+    justify-content: center;
+    .home-cont1{
+        margin-top: 4rem;
+        h1{
+            @include heading;
+        }
+        p{
+            font-size: 0.8rem;
+            width: 70%;
+            color: #999b9d;
+            line-height: 1.8;
+        }
+        button{
+            @include homebutton;
+        }
+    }
+    .home-cont2{
+        width: 100%;
+        img{
+            width: 35%;
+            height: 100%;
+        }
+    }
+}
+
+@media (max-width:991px){
+    .Home-content{
+        margin: 5rem 0rem 0rem 2rem;
+        grid-template-columns: 60% 10FR;
+        .home-cont2{
+            width: 150%;
+            img{
+                width: 55%;
+                height: 100%;
+            }
+        }
+    }
+    
+}
